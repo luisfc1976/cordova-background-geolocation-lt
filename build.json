@@ -2,12 +2,12 @@
     "ios": {
         "debug": {
             "buildFlag": [
-                "VALID_ARCHS=armv7"
+                "EXCLUDED_ARCHS=armv7"
             ]
         },
         "release": {
           "buildFlag": [
-              "VALID_ARCHS=armv7"
+              "EXCLUDED_ARCHS=arm64"
           ]
         }
     }
