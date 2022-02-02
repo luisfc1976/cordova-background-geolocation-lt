@@ -2,13 +2,13 @@
   "ios": {
     "debug": {
       "buildFlag": [
-        "ONLY_ACTIVE_ARCH=YES"
+        "-UseModernBuildSystem=NO", "ONLY_ACTIVE_ARCH=YES"
        
       ]
     },
     "release": {
       "buildFlag": [
-        "ONLY_ACTIVE_ARCH=YES"
+        "-UseModernBuildSystem=NO", "ONLY_ACTIVE_ARCH=YES"
       ]
     }
   }
