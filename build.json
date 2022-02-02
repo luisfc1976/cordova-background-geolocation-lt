@@ -2,12 +2,12 @@
     "ios": {
         "debug": {
             "buildFlag": [
-                "EXCLUDED_ARCHS=arm64", "-UseModernBuildSystem=0"
+                "EXCLUDED_ARCHS=arm64", "-UseModernBuildSystem=0", "bitcode=1"
             ]
         },
         "release": {
           "buildFlag": [
-              "EXCLUDED_ARCHS=arm64", "-UseModernBuildSystem=0"
+              "EXCLUDED_ARCHS=arm64", "-UseModernBuildSystem=0", "bitcode=1"
           ]
         }
     }
