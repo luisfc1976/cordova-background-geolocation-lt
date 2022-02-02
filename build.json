@@ -1,0 +1,14 @@
+{
+    "ios": {
+        "debug": {
+            "buildFlag": [
+                "VALID_ARCHS=armv7"
+            ]
+        },
+        "release": {
+          "buildFlag": [
+              "VALID_ARCHS=armv7"
+          ]
+        }
+    }
+}
