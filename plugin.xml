@@ -42,7 +42,7 @@
             </feature>
         </config-file>
 
-        <framework src="CocoaLumberjack" type="podspec" spec="~> 1.11.2" />
+        <framework src="CocoaLumberjack" type="podspec" spec="~> 2.0.0" />
         <framework src="AudioToolbox.framework" weak="true" />
         <framework src="SystemConfiguration.framework" weak="true" />
         <framework src="AVFoundation.framework" weak="true" />
