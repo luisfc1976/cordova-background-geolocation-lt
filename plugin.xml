@@ -41,8 +41,15 @@
                 <param name="ios-package" value="CDVBackgroundGeolocation"/>
             </feature>
         </config-file>
+        <podspec>
+           <config>
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
+            <pods use-frameworks="true">
+                <pod name="CocoaLumberjack" spec="~> 3.7.2" />
+            </pods>
+        </podspec>
 
-        <framework src="CocoaLumberjack" type="podspec" spec="~> 2.4.0" />
         <framework src="AudioToolbox.framework" weak="true" />
         <framework src="SystemConfiguration.framework" weak="true" />
         <framework src="AVFoundation.framework" weak="true" />
