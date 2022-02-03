@@ -46,7 +46,7 @@
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods use-frameworks="true">
-                <pod name="CocoaLumberjack" spec="~> 3.7.2" />
+                <pod name="CocoaLumberjack" spec="~> 2.4.0" />
             </pods>
         </podspec>
 
