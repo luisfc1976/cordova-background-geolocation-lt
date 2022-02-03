@@ -41,7 +41,7 @@
                 <param name="ios-package" value="CDVBackgroundGeolocation"/>
             </feature>
         </config-file>
-        <pod id="CocoaLumberjack" version="3.7.4"/>
+        <pod id="CocoaLumberjack" version="3.7.2"/>
 
         <framework src="AudioToolbox.framework" weak="true" />
         <framework src="SystemConfiguration.framework" weak="true" />
