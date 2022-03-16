@@ -1,25 +1,22 @@
 #!/usr/bin/env node
 
-//this hook removes cocoaLumberJack
+// this hook installs all your plugins
+// recommended to be used with the 'after_platform_add' hook
+// based off devgirl's original script from her sample hooks.
+// http://www.mooreds.com/sample-hooks.tar.gz
 
-// add your plugins to this list--either 
-// the identifier, the filesystem location 
-// or the URL
-//var pluginlist = [
-//    "https://github.com/CocoaLumberjack/CocoaLumberjack.git"
-//];
+// add your plugins to this list:
+// either the identifier, the filesystem location or the URL
+var pluginlist = [
+  'https://github.com/CocoaLumberjack/CocoaLumberjack'
+];
 
-//var fs = require('fs');
-//var path = require('path');
-//var sys = require('sys')
-//var exec = require('child_process').exec;
+// requires 'shelljs' (npm install shelljs)
+require('shelljs/global');
 
-//function puts(error, stdout, stderr) {
-//    sys.puts(stdout)
-//}
+console.log('Add Plugins:');
 
-//pluginlist.forEach(function(plug) {
-//    exec("cordova plugin rm " + plug, puts);
-//});
-
-exec("gem list --local | grep cocoapods )"
+// install plugins synchronously
+pluginlist.forEach(function(plugin) {
+  exec('cordova plugin add ' + plugin);
+});
