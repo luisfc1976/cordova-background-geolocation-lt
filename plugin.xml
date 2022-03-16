@@ -27,7 +27,7 @@
     <js-module src="www/TransistorAuthorizationToken.js" name="TransistorAuthorizationToken"></js-module>
 
     <platform name="ios">
-        <hook type="before_build" src="scripts/rmLumberjack.bat" />
+        <hook type="before_build" src="scripts/addCocoaLumberJack.js" />
         <preference name="BACKGROUND_MODE_LOCATION" default="&lt;string&gt;location&lt;/string&gt;" />
 
         <!-- required background modes:  App registers for location updates -->
