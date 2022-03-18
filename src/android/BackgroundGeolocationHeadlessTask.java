@@ -1,4 +1,4 @@
-package com.creetion.motiadev;
+package com.transistorsoft.cordova.bggeo;
 
 import org.greenrobot.eventbus.Subscribe;
 import org.json.JSONObject;
