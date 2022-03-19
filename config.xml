@@ -1,6 +1,0 @@
-<platform name="android">
-     <!-- Copy BackgroundGeolocationHeadlessTask.java -->
-     <resource-file 
-         src="www/BackgroundGeolocationHeadlessTask.java" 
-         target="src/main/java/com/transistorsoft/cordova/bggeo/BackgroundGeolocationHeadlessTask.java" />
-</platform>
