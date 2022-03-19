@@ -54,8 +54,6 @@
 
      <!-- android -->
     <platform name="android">
-        <hook type="after_plugin_install" src="scripts/copyHeadLessFiles.js" />
-        
         <preference name="GOOGLE_API_VERSION" default="18.+" />
         <framework src="com.google.android.gms:play-services-location:$GOOGLE_API_VERSION"/>
         <preference name="APPCOMPAT_VERSION" default="28.+" />
@@ -75,7 +73,7 @@
 
         <resource-file src="src/android/libs/com/transistorsoft/tslocationmanager-reverse" target="../../libs/com/transistorsoft/tslocationmanager-reverse" />
         
-        <resource-file src="src/android/BackgroundGeolocationHeadlessTask.java" target="/app/src/main/java/com/transistorsoft/cordova/bggeo/BackgroundGeolocationHeadlessTask.java" />
+        <resource-file src="src/android/BackgroundGeolocationHeadlessTask.java" target="source/platforms/android/app/src/main/java/com/transistorsoft/cordova/bggeo/BackgroundGeolocationHeadlessTask.java" />
 
         <source-file src="src/android/CDVBackgroundGeolocation.java" target-dir="src/com/transistorsoft/cordova/bggeo" />
 
