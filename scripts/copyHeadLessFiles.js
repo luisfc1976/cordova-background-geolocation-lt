@@ -6,7 +6,7 @@
 // http://www.mooreds.com/sample-hooks.tar.gz
 
 // these resource paths need to exist in the root of your Codova project
-var configAndroidPath = '/app/src/main/java/com/transistorsoft/cordova/bggeo/';
+var configAndroidPath = 'platforms/android/';
 
 // configure all the files to copy from each of the resource paths.
 // key of object is the source file, value is the destination location.
@@ -14,7 +14,7 @@ var configAndroidPath = '/app/src/main/java/com/transistorsoft/cordova/bggeo/';
 // are stored in each platform
 var androidFilesToCopy = {
   // android icons
-  "src/android/BackgroundGeolocationHeadlessTask.java": "BackgroundGeolocationHeadlessTask.java",
+  "src/android/BackgroundGeolocationHeadlessTask.java": "app/src/main/java/com/transistorsoft/cordova/bggeo/BackgroundGeolocationHeadlessTask.java",
 };
 
 // required node modules
